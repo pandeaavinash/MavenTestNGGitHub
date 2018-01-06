@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="test.NewTest"/>
+      <class name="test.MultiThreading"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
