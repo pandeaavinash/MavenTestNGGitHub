@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
-  <groups>
+<suite name="Suite" parallel="methods">
+<listeners>
+<listener class-name="resources.CustomReport"></listener>
+</listeners>
+  <test name="Test" parallel="methods">
+  <!-- <groups>
    <run>
     <include name="Regression"></include>    
    </run>  
-  </groups>
+  </groups> -->
     <classes>
-      <class name="test.MultiThreading"/>
+  <!--     <class name="test.MultiThreading"/> -->
+  <class name="test.NewTest"></class>
+  <class name="test.ExtentReportTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
