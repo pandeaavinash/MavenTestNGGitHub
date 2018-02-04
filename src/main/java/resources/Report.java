@@ -17,7 +17,7 @@ public class Report
 			report = new ExtentReports("E:\\Avinash.html", true, DisplayOrder.OLDEST_FIRST);
 			
 		}
-		return report;
+		return report;  
 	}
 	
 	public static ExtentTest createTest(String testname)
