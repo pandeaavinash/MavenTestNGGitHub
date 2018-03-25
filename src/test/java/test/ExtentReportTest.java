@@ -11,6 +11,7 @@ public class ExtentReportTest
 	@Test
 	  public void Test3() 
 	  {
+		System.out.println();
 		  System.out.println("hi");
 		  Report.test.log(LogStatus.PASS, "pass");
 		  //Report.test.log(LogStatus.PASS, "avinash");
